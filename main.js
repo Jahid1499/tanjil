@@ -15,3 +15,6 @@ Promise.allSettled([promise1, promise2, promise3])
     console.log("At least one promise rejected:");
     console.log(error);
   });
+
+
+  console.log("Hello world! This is a test of Promise.allSettled.");
